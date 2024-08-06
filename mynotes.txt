@@ -1,0 +1,17 @@
+both algo finds lowest Single source shortest paths
+Always start from non-Infinite nodes
+
+
+Source = 0
+other edges = infinite
+Vertix = V
+
+Dijkstra's algo does not solve -ve Vs
+Bellman Ford algo relaxes every edge, V-1 times 
+to find -ve edge cycle check v-1+1
+(Graph drawn V-1 times)
+
+
+
+if A+V<B
+A + V = B
